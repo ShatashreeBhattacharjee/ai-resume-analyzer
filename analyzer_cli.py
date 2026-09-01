@@ -7,7 +7,7 @@ import pdfplumber
 
 load_dotenv()
 
-MODEL = "llama-3.1-8b-instant"
+MODEL = "openai/gpt-oss-20b"
 RESUMES_DIR = "resumes"
 JD_PATH = "jobs/job_description.txt"
 SYSTEM_PROMPT ="""You are an expert resume reviewer. You have access to the candidate's resume and a job description.
