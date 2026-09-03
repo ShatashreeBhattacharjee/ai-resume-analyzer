@@ -6,7 +6,7 @@ An end-to-end resume analysis and interview-prep tool that scores resumes, compa
 
 Job seekers often don't know how their resume actually reads to an interviewer, or what they'll be asked once they land one. This tool closes that gap. It analyzes a resume's strengths and weaknesses, benchmarks it against a target job description, and generates role-specific interview questions grounded in the candidate's real experience, with AI feedback on their practice answers.
 
-Built with Python, Streamlit, and the Groq API (Llama 3.1-8B), using a custom RAG pipeline (sentence-transformers and FAISS) for accurate multi-resume retrieval and context-aware chat.
+Built with Python, Streamlit, and the Groq API (gpt-oss-20b), using a custom RAG pipeline (sentence-transformers and FAISS) for accurate multi-resume retrieval and context-aware chat.
 
 ## Features
 
